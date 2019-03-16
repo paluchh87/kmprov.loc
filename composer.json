@@ -1,0 +1,17 @@
+{
+  "require": {
+    "pclzip/pclzip":"*",
+    "mk-j/php_xlsxwriter":"*"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "controllers\\": "controllers",
+      "lib\\": "lib",
+      "models\\": "models",
+      "components\\": "components",
+      "reports\\": "reports",
+      "files\\": "files"
+    }
+  }
+}
